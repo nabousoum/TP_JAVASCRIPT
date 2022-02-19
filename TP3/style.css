@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 30%;
+    height: 55%;
+    border: 1px solid black;
+    display: flex;
+    background-color: rgb(80,53,108);
+}
+.main{
+   margin-top: 2%;
+   margin-left: 2%;
+   margin-bottom: 2%;
+    width: 96%;
+    background-color:rgb(49,15,82);
+}
+.entete{
+    margin: 5%;
+    height:20%;
+    background-color: rgb(80,53,108);
+}
+.btnCopy{
+    float: right;
+    height: 40%;
+    width: 15%;
+    color: rgb(80,53,108);
+    font-size: large;
+    visibility: hidden;
+}
+.middle{
+    margin-left: 5%;
+    color: white;
+    font-size: xx-large;
+}
+.btnGenerer{
+    height: 10%;
+    width: 90%;
+    background-color: rgb(237,181,0);
+    margin-top: 15%;
+    margin-left: 5%;
+    color: rgb(80,53,108);
+    font-size: x-large;
+}
+.textGenerer{
+    margin-left: 5%;
+   font-size: xx-large;
+   color: white;
+   background-color: rgb(80,53,108);
+}

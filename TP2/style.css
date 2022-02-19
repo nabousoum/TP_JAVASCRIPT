@@ -28,4 +28,15 @@ body{
 .boutons{
    display: flex;
    flex-direction: column;
+   width: 20%;
+}
+.para{
+    font-size: x-large;
+    height: 10%;
+    border-radius: 5px;
+}
+
+.select{
+    background-color:  rgb(23,0,255);
+    color: white;
 }

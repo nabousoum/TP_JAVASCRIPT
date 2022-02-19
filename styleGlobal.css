@@ -1,0 +1,26 @@
+body{
+    padding: 50px;
+    border-top: solid 1px #fff;
+    background: #fff url(js.jpg) 0 0 no-repeat ;;
+    background-size: cover;
+    font: 14px/normal Tahoma, Arial, Helvetica, sans-serif;
+}
+ul li{
+    list-style: none;
+    height: 10%;
+    width: 10%;
+    font-size: xx-large;
+}
+ul a{
+    color: black;
+}
+ul{
+    display: flex;
+}
+
+h1{
+    font-weight: normal; 
+    font-size: 280%;
+     text-indent: 10px;
+     letter-spacing: -1px;
+}
