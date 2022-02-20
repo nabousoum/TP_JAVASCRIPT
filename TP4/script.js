@@ -1,11 +1,11 @@
 document.getElementsByClassName('container')[0].style.display="block";
-const correct1 = document.getElementById('repCorrect1');
-const correct2 = document.getElementById('repCorrect2');
-const correct3 = document.getElementById('repCorrect3');
-const correct4 = document.getElementById('repCorrect4');
-const correct5 = document.getElementById('repCorrect5');
-const btnResultat = document.getElementById('btnResultat');
-const h = document.getElementById('text');
+var correct1 = document.getElementById('repCorrect1');
+var correct2 = document.getElementById('repCorrect2');
+var correct3 = document.getElementById('repCorrect3');
+var correct4 = document.getElementById('repCorrect4');
+var correct5 = document.getElementById('repCorrect5');
+var btnResultat = document.getElementById('btnResultat');
+var span = document.getElementById('span');
 
 function questionSuivante(num){
     document.getElementsByClassName('container')[num-1].style.display="none";
@@ -29,9 +29,13 @@ function resultatQuizz(){
     if (correct5.checked){
         score++;
     }
-    alert(score);
+    span.innerText = score+'/5';
 }
-// console.log(resultatQuizz);
+btnResultat.addEventListener('click',function(){
+    resultatQuizz();
+})
+
+console.log(resultatQuizz());
 // btnResultat.addEventListener('click',function(){
 //     resultatQuizz();
 // })

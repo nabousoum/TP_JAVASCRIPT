@@ -10,6 +10,7 @@ body{
     width: 40%;
     display: none;
 }
+
 h1{
     margin-left: 10%;
 }
@@ -23,4 +24,7 @@ h1{
     background-color: rgb(143,68,173);
     color: white;
     font-size: x-large;
+}
+.replace{
+    height: 80%;
 }

@@ -8,57 +8,69 @@
     </head>
     <body>
         <div class="container">
-            <h1 class="text1">Quel est le meilleur langage de programmation</h1>
-            <div class="radio">
-                <input type="radio"  name="rep1">Java<br>
-                <input type="radio" name="rep1">C<br>
-                <input type="radio"  name="rep1">Python<br>
-                <input type="radio" id="repCorrect1" name="rep1">Javascript<br>
-            </div>  
+            <div class="replace">
+                <h1 class="text1">Quel est le meilleur langage de programmation</h1>
+                <div class="radio">
+                    <input type="radio"  name="rep1">Java<br>
+                    <input type="radio" name="rep1">C<br>
+                    <input type="radio"  name="rep1">Python<br>
+                    <input type="radio" id="repCorrect1" name="rep1">Javascript<br>
+                </div>  
+            </div>
             <button class="btnReponse" onclick="questionSuivante(1)">SUIVANT</button>   
         </div>
         <div class="container">
-            <h1 class="text1">La programmation c est : </h1>
-            <div  class="radio">
-                <input type="radio"  name="rep2" id="repCorrect2" >La realisation d un programme<br>
-                <input type="radio" name="rep2">La correction des erreurs commises par le programmeur<br>
-                <input type="radio"  name="rep2">La traduction d un langage informatique en langage binaire<br>
-                <input type="radio" name="rep2">Un langage<br>
-            </div>  
+            <div class="replace">
+                <h1 class="text1">La programmation c est : </h1>
+                <div  class="radio">
+                    <input type="radio"  name="rep2" id="repCorrect2" >La realisation d un programme<br>
+                    <input type="radio" name="rep2">La correction des erreurs commises par le programmeur<br>
+                    <input type="radio"  name="rep2">La traduction d un langage informatique en langage binaire<br>
+                    <input type="radio" name="rep2">Un langage<br>
+                </div>  
+            </div>
             <button class="btnReponse" onclick="questionSuivante(2)">SUIVANT</button>   
         </div>
         <div class="container">
-            <h1 class="text1">Un editeur de texte :</h1>
-            <div  class="radio">
-                <input type="radio"  name="rep3">Permet de rectifier et de corriger les erreurs de code d un programmeur<br>
-                <input type="radio" name="rep3" id="repCorrect3" >Permet d ecrire le code source<br>
-                <input type="radio"  name="rep3">La traduction d un code source en langage binaire<br>
-                <input type="radio"  name="rep3">Un jeu<br>
+            <div class="replace">
+                <h1 class="text1">Un editeur de texte :</h1>
+                <div  class="radio">
+                    <input type="radio"  name="rep3">Permet de rectifier et de corriger les erreurs de code d un programmeur<br>
+                    <input type="radio" name="rep3" id="repCorrect3" >Permet d ecrire le code source<br>
+                    <input type="radio"  name="rep3">La traduction d un code source en langage binaire<br>
+                    <input type="radio"  name="rep3">Un jeu<br>
+                </div>
             </div>  
             <button class="btnReponse" onclick="questionSuivante(3)">SUIVANT</button>   
         </div>
         <div class="container">
-            <h1 class="text1">Un langage binaire est composé de : </h1>
-            <div  class="radio">
-                <input type="radio"  name="rep4" id="repCorrect4" >0 et de 1<br>
-                <input type="radio" name="rep4">De A à F<br>
-                <input type="radio"  name="rep4">De 0 à 9<br>
-                <input type="radio"  name="rep4">Caracteres speciaux<br>
-            </div>  
+            <div class="replace">
+                <h1 class="text1">Un langage binaire est composé de : </h1>
+                <div  class="radio">
+                    <input type="radio"  name="rep4" id="repCorrect4" >0 et de 1<br>
+                    <input type="radio" name="rep4">De A à F<br>
+                    <input type="radio"  name="rep4">De 0 à 9<br>
+                    <input type="radio"  name="rep4">Caracteres speciaux<br>
+                </div>  
+            </div>
             <button class="btnReponse" onclick="questionSuivante(4)">SUIVANT</button>   
         </div>
         <div class="container">
-            <h1 class="text1">C++ est : </h1>
-            <div  class="radio">
-                <input type="radio"  name="rep5">Un debuggeur<br>
-                <input type="radio" name="rep5">Un compilateur<br>
-                <input type="radio"  name="rep5" id="repCorrect5" >Un langage<br>
-                <input type="radio" name="rep5">Un framework<br>
-            </div>  
-            <button  class="btnReponse" id="btnResultat" onclick="resultatQuizz()">RESULTAT</button>   
+            <div class="replace">
+                <h1 class="text1">C++ est : </h1>
+                <div  class="radio">
+                    <input type="radio"  name="rep5">Un debuggeur<br>
+                    <input type="radio" name="rep5">Un compilateur<br>
+                    <input type="radio"  name="rep5" id="repCorrect5" >Un langage<br>
+                    <input type="radio" name="rep5">Un framework<br>
+                </div> 
+            </div> 
+            <button  class="btnReponse" id="btnResultat" onclick="questionSuivante(5)">RESULTAT</button>   
         </div>
         <div class="container">
-            <h1 id="text" class="text1">Votre Score est:</h1> 
+           <div class="replace">
+            <h1 id="text" class="text1">Votre Score est:<span id="span"> </span></h1> 
+           </div> 
             <button  class="btnReponse" id="btnResultat" onclick="window.location.href = 'http://127.0.0.1/TP_JS/TP4/index.html';">REJOUER</button>   
         </div>
         <script src="script.js"></script>

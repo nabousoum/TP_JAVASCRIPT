@@ -40,7 +40,7 @@ label5.addEventListener('change',verifButton);
 
 function genererPassword(){
     const tab = [].concat(label2.checked ? upperCarac : [],label3.checked ? lowerCarac : [],label4.checked ? numberCarac : [],label5.checked ? regexCarac : []);
-    if (tab.length===0){
+    if (tab.length == 0){
         textGenerer.value='';
     }
     var longueurPassword = parseInt(document.getElementById('label1').value);
